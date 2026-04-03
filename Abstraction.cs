@@ -8,7 +8,15 @@ namespace DotNetLearn
 {
     internal abstract class Vehicle
     {
+        int num;
         public abstract void start();
+
+        public Vehicle() { }
+
+        public void add()
+        {
+            Console.WriteLine("");
+        }
     }
 
     internal class Car : Vehicle

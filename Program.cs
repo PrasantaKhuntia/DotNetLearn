@@ -14,6 +14,14 @@
 
 //PrivateConstructor obj1 = new PrivateConstructor();
 
+//ConstructorOverloading obj1 = new ConstructorOverloading(2, 3, 9);
+
+//ClassVariations.num = 5;
+
+//Employee emp = new Employee();
+//emp.Display();
+//emp.Display1();
+
 
 
 
