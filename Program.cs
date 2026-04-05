@@ -1,4 +1,6 @@
 ﻿using DotNetLearn;
+using System;
+using static DotNetLearn.LearnDelegate;
 
 //DefaultConstructor obj = new DefaultConstructor();
 
@@ -21,6 +23,13 @@
 //Employee emp = new Employee();
 //emp.Display();
 //emp.Display1();
+
+//LearnGenerics<int> obj = new LearnGenerics<int>();
+//obj.Add<string>("100");
+
+//myDelegate del1 = Sub;
+//del1(5, 6);
+
 
 
 
