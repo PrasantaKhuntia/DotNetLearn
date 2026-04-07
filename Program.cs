@@ -30,6 +30,9 @@ using static DotNetLearn.LearnDelegate;
 //myDelegate del1 = Sub;
 //del1(5, 6);
 
+LearnDelegate obj = new LearnDelegate();
+obj.Calculation();
+
 
 
 
