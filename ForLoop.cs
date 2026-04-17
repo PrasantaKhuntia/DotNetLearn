@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace DotNetLearn
 {
-    internal class ArrayType
+    internal class ForLoop
     {
+        //for loop is used when we know the number of iterations in advance
+
         int[] arr = new int[5]; //5 - size of array
 
         public void StoreData() // Array stores data in index format and index starts with 0
@@ -17,9 +19,15 @@ namespace DotNetLearn
             arr[2] = 30;
             arr[3] = 40;
             arr[4] = 50;
-            arr[5] = 60; // This will throw an exception because the index is out of range
+            //arr[5] = 60; // This will throw an exception because the index is out of range
 
+            for (int i=0; i<arr.Length; i++) //i++ = i+1
+            {
+                Console.WriteLine(arr[i]);
+            }
         }
+
+
 
     }
 }

@@ -36,6 +36,25 @@ using static DotNetLearn.LearnDelegate;
 //AnonymousMethod obj = new AnonymousMethod();
 //obj.Calculation();
 
+//ForLoop obj = new ForLoop();
+//obj.StoreData();
+
+//WhileLoop obj = new WhileLoop();
+//obj.StoreData();
+
+//DoWhileLoop obj = new DoWhileLoop();
+//obj.StoreData();
+
+//ForEachLoop obj = new ForEachLoop();
+//obj.StoreData();
+
+//Conditions obj = new Conditions();
+//obj.StoreData();
+
+BreakContinueStatement obj = new BreakContinueStatement();
+obj.StoreData();
+
+
 
 
 
