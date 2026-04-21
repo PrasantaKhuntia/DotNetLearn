@@ -51,8 +51,11 @@ using static DotNetLearn.LearnDelegate;
 //Conditions obj = new Conditions();
 //obj.StoreData();
 
-BreakContinueStatement obj = new BreakContinueStatement();
-obj.StoreData();
+//BreakContinueStatement obj = new BreakContinueStatement();
+//obj.StoreData();
+
+Exceptionhandling obj = new Exceptionhandling();
+obj.Calculation();
 
 
 
