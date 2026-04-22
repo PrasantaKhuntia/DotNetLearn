@@ -24,7 +24,7 @@ namespace DotNetLearn
             }
             catch (DivideByZeroException ex)
             {
-                Console.WriteLine(ex.ToString());
+                throw;
             }
             catch (NullReferenceException ex)
             {

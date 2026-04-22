@@ -54,8 +54,12 @@ using static DotNetLearn.LearnDelegate;
 //BreakContinueStatement obj = new BreakContinueStatement();
 //obj.StoreData();
 
-Exceptionhandling obj = new Exceptionhandling();
-obj.Calculation();
+//Exceptionhandling obj = new Exceptionhandling();
+//obj.Calculation();
+
+ExceptionThrow obj = new ExceptionThrow();
+obj.A();
+
 
 
 
