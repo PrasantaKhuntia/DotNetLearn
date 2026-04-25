@@ -57,11 +57,19 @@ using static DotNetLearn.LearnDelegate;
 //Exceptionhandling obj = new Exceptionhandling();
 //obj.Calculation();
 
-ExceptionThrow obj = new ExceptionThrow();
-obj.A();
+//ExceptionThrow obj = new ExceptionThrow();
+//obj.A();
 
+//MultiThreading obj = new MultiThreading();
+//Thread t1 = new Thread(obj.Downloading);
+//t1.Start();
 
+//Thread t2 = new Thread(obj.Processing);
+//t2.Start();
 
+Deadlock obj = new Deadlock();
+Thread t1 = new Thread(obj.Method1);
+Thread t2 = new Thread(obj.Method2);
 
 
 
