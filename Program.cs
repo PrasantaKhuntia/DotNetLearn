@@ -67,9 +67,20 @@ using static DotNetLearn.LearnDelegate;
 //Thread t2 = new Thread(obj.Processing);
 //t2.Start();
 
-Deadlock obj = new Deadlock();
-Thread t1 = new Thread(obj.Method1);
-Thread t2 = new Thread(obj.Method2);
+//Deadlock obj = new Deadlock();
+//Thread t1 = new Thread(obj.Method1);
+//Thread t2 = new Thread(obj.Method2);
+//t1.Start();
+//t2.Start();
+
+//ConcurrDict obj = new ConcurrDict();
+//obj.Method1();
+
+//TaskExplain obj = new TaskExplain();
+//await obj.DoTimeConsumingWork();
+
+//Async and Await to avoid the thread blocking
+
 
 
 
