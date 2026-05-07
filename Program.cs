@@ -2,6 +2,25 @@
 using System;
 using static DotNetLearn.LearnDelegate;
 
+//DataTypes obj = new DataTypes();
+//Console.WriteLine(obj.date);
+
+//ValueAndReference obj1 = new ValueAndReference();
+//Console.WriteLine(obj1.num1); //100
+//int num2 = obj1.num1; //This is creating a copy
+//Console.WriteLine(num2);
+//Console.WriteLine(obj1.num1);
+//ValueAndReference obj2 = obj1; // This is creating a reference
+//obj2.num1 = 200;
+//Console.WriteLine(obj2.num1); //200
+//Console.WriteLine(obj1.num1); //200
+// int , float, double, char, bool - Value Types
+// class, object, string - Reference Types
+
+
+//MethodExplan obj = new MethodExplan();
+//obj.Add(3, 5);
+
 //DefaultConstructor obj = new DefaultConstructor();
 
 //ParameterisedConstructor obj = new ParameterisedConstructor(100,"Sunil1");
@@ -80,6 +99,22 @@ using static DotNetLearn.LearnDelegate;
 //await obj.DoTimeConsumingWork();
 
 //Async and Await to avoid the thread blocking
+
+//Cancelation token - Gracefully terminate the application execution instead of Force Stop
+
+//CancellationTokenSource cts = new CancellationTokenSource();
+//CancelTokenImpl obj = new CancelTokenImpl();
+//Task task = obj.DoSomeWork(cts.Token);
+//await Task.Delay(2000);
+//cts.Cancel();
+//await task;
+
+
+
+
+
+
+
 
 
 
